@@ -38,6 +38,7 @@
 .reviews-list {
   display: flex;
   gap: 32px;
+  transition: transform 0.5s ease;
 }
 .reviews-item {
   border-radius: 24px;
