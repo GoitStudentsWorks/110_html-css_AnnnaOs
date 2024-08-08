@@ -5,7 +5,7 @@
 }
 
 
-.rewiews-title {
+.reviews-title {
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -28,29 +28,29 @@
   opacity: 0.4;
 }
 
-.rewiews-list-clider {
+.reviews-list-clider {
   width: 335px;
   overflow: hidden;
   margin: 0 auto;
   position: relative;
 }
 
-.rewiews-list {
+.reviews-list {
   display: flex;
   gap: 32px;
 }
-.rewiews-item {
+.reviews-item {
   border-radius: 24px;
   padding: 32px 16px;
   background-color: #fbfbfb;
   min-width: 335px;
 }
-.rewiews-image {
+.reviews-image {
   display: block;
   margin: 0 auto;
   margin-bottom: 24px;
 }
-.rewiews-subtitle {
+.reviews-subtitle {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.1;
@@ -59,7 +59,7 @@
   color: #040306;
   margin-bottom: 8px;
 }
-.rewiews-item-text {
+.reviews-item-text {
   font-size: 16px;
   line-height: 1.4;
   letter-spacing: -0.02em;
@@ -73,7 +73,7 @@
     padding-bottom: 150px;
   }
 
-  .rewiews-title {
+  .reviews-title {
     font-size: 48px;
   }
 
@@ -85,23 +85,27 @@
      margin-bottom: 75px;
   }
 
-  .rewiews-list-clider{
+  .reviews-list-clider{
     width: 704px;
   }
 
 }
 
 @media screen and (min-width: 1280px) {
-.rewiews-title{
+.reviews-title{
     max-width: 850px;
 }
     
-.rewiews-list{
+.reviews-list{
     gap: 26px;
 }
 
-.rewiews-list-clider{
+.reviews-list-clider{
     width: 1180px;
+  }
+
+  .reviews-item{
+    padding: 32px 28px;
   }
 
 }
