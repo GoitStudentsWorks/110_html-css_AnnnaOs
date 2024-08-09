@@ -9,7 +9,7 @@
 .advantages-container {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 20px;
 }
 
 .advantages-list-box {
@@ -74,6 +74,10 @@
     padding-bottom: 75px;
   }
 
+  .advantages-container {
+    gap: 32px;
+  }
+
   .advantages-list-box {
     padding: 90px 32px;
   }
@@ -113,6 +117,14 @@
   .advantages-list-box {
     max-width: 716px;
     padding: 90px 50px;
+  }
+
+  .advantages-list {
+    gap: 44px;
+  }
+
+  .advantages-list-item {
+    width: calc((100% - 44px) / 2);
   }
 
   .advantages-list-subtitle::after {
