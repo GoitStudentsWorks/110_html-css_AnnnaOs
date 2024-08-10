@@ -32,7 +32,35 @@
       </ol>
     </div>
     <div class="advantages-img-box">
-      <img class="advantages-img" src="" alt="" />
+      <picture>
+        <source
+          srcset="
+            /img/advantages/desktop-1280-advantages-img.jpg    1x,
+            /img/advantages/desktop-1280-advantages-img@2x.jpg 2x
+          "
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="
+            /img/advantages/tablet-advantages-img.jpg    1x,
+            /img/advantages/tablet-advantages-img@2x.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /img/advantages/mobile-advantages-img.jpg    1x,
+            /img/advantages/mobile-advantages-img@2x.jpg 2x
+          "
+          media="(max-width:767px)"
+        />
+        <img
+          class="advantages-img"
+          src="/img/advantages/desktop-1280-advantages-img.jpg"
+          alt="Yacht"
+          width="704"
+        />
+      </picture>
     </div>
   </div>
 </section>

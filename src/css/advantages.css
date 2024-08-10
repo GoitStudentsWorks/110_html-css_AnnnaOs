@@ -62,8 +62,9 @@
   background: rgba(251, 251, 251, 0.1);
 }
 
-.advantages-img {
+.advantages-img-box {
   border-radius: 24px;
+  overflow: hidden;
 }
 
 /* TABLET STYLES */
