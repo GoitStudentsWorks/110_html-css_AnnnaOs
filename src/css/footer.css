@@ -285,6 +285,13 @@
         padding: 0 25px;
     }
 
+    .footer-nav {
+        gap: 330px;
+        margin-bottom: 0;
+    
+    }
+
+
     .footer-container {
         background: #1B414B;
 
@@ -293,12 +300,6 @@
 
     }
 
-
-    .footer-nav {
-        gap: 330px;
-        margin-bottom: 0;
-
-    }
 
     .footer-main-text {
         font-family: var(--font-family);
