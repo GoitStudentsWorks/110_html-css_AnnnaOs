@@ -155,8 +155,7 @@
   }
 
   .header-nav {
-    /* margin-right: 281px; */
-    justify-content: space-between;
+    margin-right: 281px;
   }
 
   .header-logo {
