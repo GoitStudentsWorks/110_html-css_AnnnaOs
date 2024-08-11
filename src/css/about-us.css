@@ -1,11 +1,11 @@
 .about-us {
   margin-top: -59px;
-  padding-bottom: 164px;
+  padding-bottom: 180px;
 }
 
 .about-us-container {
   height: 675px;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 .about-us-text-content {
   padding-left: 20px;
@@ -51,14 +51,15 @@
 @media screen and (min-width: 768px) {
   .about-us {
     margin-top: -64px;
-    padding-bottom: 375px;
+    padding-bottom: 390px;
   }
-  .about-us-container {
+  /* .about-us-container {
     padding-top: 50px;
-  }
+  } */
   .about-us-text-content {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 50px;
     padding-bottom: 74px;
   }
   .about-us-title {
@@ -97,7 +98,7 @@
 @media screen and (min-width: 1280px) {
   .about-us {
     margin-top: -35px;
-    padding-bottom: 230px;
+    padding-bottom: 195px;
   }
 
   .about-us-text-content {
