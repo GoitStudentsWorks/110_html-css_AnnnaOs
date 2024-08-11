@@ -8,34 +8,31 @@
         </div>
         </div>
      <div class="about-us-img-box">
-        <picture>
+      <picture>
             <source
-                    srcset="
-                ../img/about-us/desktop-1280-about-us-img.jpg,
-                ../img/about-us/desktop-1280-about-us-img@2x.jpg
-                "
-
-                    media="(min-width: 1280px)"
-                  > 
-                  <source
-                    srcset="
-                    ../img/about-us/mobile-about-us-img.jpg,
-                    ../img/about-us/mobile-about-us-img@2x.jpg
-                    "
-                    
-                    media="(min-width: 768px)"
-                  >
-                  <source
-                    srcset=" 
-                    ../img/about-us/tablet-about-us-img.jpg,
-                    ../img/about-us/mobile-about-us-img@2x.jpg
-                    "
-            
-                    media="(max-width: 767px)"
-                  >
-                  
-                  <img class="about-us-img" src="../img/about-us/mobile-about-us-img.jpg" width="335" height="395" alt="YachtJet">
-                </picture>
-    </div>
+              srcset="
+                /img/about-us/desktop-1280-about-us-img.jpg    1x,
+                /img/about-us/desktop-1280-about-us-img@2x.jpg 2x
+              "
+              media="(min-width: 1280px)" />
+            <source
+              srcset="
+                /img/about-us/tablet-about-us-img.jpg    1x,
+                /img/about-us/tablet-about-us-img@2x.jpg 2x
+              "
+              media="(min-width: 768px)" />
+            <source
+              srcset="
+                /img/about-us/mobile-about-us-img.jpg    1x,
+                /img/about-us/mobile-about-us-img@2x.jpg 2x
+              "
+              media="(max-width: 767px)" />
+            <img
+              class="about-us-img"
+              src="/img/about-us/desktop-1280-about-us-img.jpg"
+              width="335"
+              alt="YachtJet" />
+          </picture>
+           </div>
     </div>
 </section>
