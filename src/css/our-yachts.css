@@ -9,8 +9,9 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
     padding: 0 8px;
+    max-width: 319px;
 }
 
 .our-yachts-list {
@@ -146,6 +147,7 @@
         font-size: 48px;
         padding: 0 29px 0 30px;
         margin-bottom: 75px;
+        max-width: 645px;
     }
 
     .our-yachts-list {
@@ -212,7 +214,7 @@
     .our-yachts-item-text-second:first-child {
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 147px;
+        max-width: 147px; 
     }
 
     .our-yachts-item-text-second:nth-child(2) {
@@ -282,7 +284,7 @@
     }
 
     .our-yachts-title {
-        padding: 0 233px 0 234px;
+        max-width: 714px;
     }
 
     .our-yachts-list {
@@ -310,7 +312,7 @@
     }
 
     .our-yachts-item-text-second:first-child {
-        width: 177px;
+        max-width: 177px;
     }
 
     .our-yachts-item-properties-second {
