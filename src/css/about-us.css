@@ -1,13 +1,10 @@
 .about-us {
-    /* background-color:#fbfbfb; */
-    /* border-top-left-radius: 24px;
-    border-top-right-radius: 24px; */
+ 
     margin-top: -59px;
     padding-bottom: 164px;
 }
 
 .about-us-container{
-/* position: relative; */
 height: 675px;
 padding-top: 40px;
 }
@@ -44,7 +41,6 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: -0.02em;
 color: #040306;
-/* margin-bottom: 40px; */
 
 }
 
@@ -53,9 +49,6 @@ color: #040306;
 border-radius: 24px;
 height: 395px;
 margin-top: -24px;
-/* position:absolute;
-right: 50%;
-transform: translate(50%,0); */
 }
 
 @media screen and (min-width: 768px){
@@ -87,7 +80,6 @@ margin-bottom: 50px;
 max-width: 389px;
 padding-left: 32px;
 padding-right:auto; 
-/* margin-bottom: 50px; */
 }
 
 .about-us-acent-text{
@@ -98,7 +90,6 @@ font-size: 23px;
 font-weight: 400;
 font-size: 13px;
 line-height: 1.15;
-/* margin-bottom: 0; */
 }
 .about-us-img {
 height: 470px;
@@ -118,7 +109,6 @@ padding-bottom:230px;
   padding-left: 50px;
 padding-right:50px; 
 padding-bottom: 124px;
-/* margin-bottom: 100px;  */
  }
 .about-us-text-container{
 max-width: 354px;
