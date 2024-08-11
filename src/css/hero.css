@@ -2,7 +2,7 @@
     max-width: 375px;
     padding: 260px 0 302px 0;
     margin: 0 auto;
-    background-image: url("/img/hero/mobile-hero-bg.jpg");
+    background-image: url("../img/hero/desktop-1280-hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero-section {
-        background-image: url("/img/hero/tablet-hero-bg@2x.img");
+        background-image: url("../img/hero/tablet-hero-bg@2x.jpg");
     }
 }
 
@@ -63,7 +63,7 @@
         max-width: 768px;
         padding: 280px 0 282px 0;
         margin: 0 auto;
-        background-image: url("/img/hero/tablet-hero-bg.img");
+        background-image: url("../img/hero/tablet-hero-bg.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -74,12 +74,13 @@
          (min-resolution: 192dpi),
          (min-resolution: 2dppx) {
              .hero-section {
-                 background-image: url("/src/img/hero/desktop-1440-hero-bg@2x.jpg");
+                background-image: url(../img/hero/desktop-1440-hero-bg@2x.jpg);
+                 background-image: url(../img/hero/desktop-1280-hero-bg@2x.jpg);
              }
          }
           
          .hero-title {
-            font-size: 78px;
+            font-size: 70px;
             max-width: 650px;
          }
         
@@ -106,7 +107,7 @@
             max-width: 1280px;
             padding: 235px 0 215px 0;
             margin: 0 auto;
-            background-image: url("/img/hero/desktop-1280-hero-bg.img");
+            background-image: url("../img/hero/desktop-1280-hero-bg.jpg");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -117,7 +118,7 @@
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                     .hero-section {
-                        background-image: url("/img/hero/desktop-1280-hero-bg@2x.img");
+                        background-image: url("../img/hero/desktop-1280-hero-bg@2x.jpg");
                     }
                 }
 
