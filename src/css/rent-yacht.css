@@ -13,6 +13,10 @@
   margin-bottom: 40px;
 }
 
+.rent-form {
+  margin-bottom: 80px;
+}
+
 .rent-form-input {
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -65,7 +69,6 @@
   width: 122px;
   height: 46px;
   background: #1b414b;
-  margin-bottom: 80px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -107,6 +110,7 @@
 
   .rent-form {
     width: 473px;
+    margin-bottom: 100px;
   }
 
   .rent-form-textarea {
@@ -129,7 +133,6 @@
     padding: 18px 75px;
     width: 194px;
     height: 56px;
-    margin-bottom: 100px;
   }
 }
 
@@ -144,7 +147,7 @@
     padding: 0;
   }
 
-  .rent-btn {
+  .rent-form {
     margin-bottom: 0;
   }
 }
