@@ -32,6 +32,7 @@
 .our-yachts-img-box {
     border-radius: 24px;
     overflow: hidden;
+    max-width: 302px;
 }
 
 .our-yachts-item-name {
@@ -159,6 +160,10 @@
         align-items: flex-start;
     }
 
+    .our-yachts-img-box {
+        max-width: 304px;
+    }
+    
     .our-yachts-item-name {
         gap: 112px;
     }
@@ -290,6 +295,10 @@
 
     .our-yachts-list {
         gap: 25px;
+    }
+
+    .our-yachts-img-box {
+        max-width: 345px;
     }
 
     .our-yachts-item-name {
