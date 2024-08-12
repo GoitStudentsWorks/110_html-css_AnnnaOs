@@ -38,8 +38,7 @@
 .our-yachts-item-name {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 125px;
+    justify-content: space-between;
     position: relative;
     margin-bottom: 16px;
     padding: 32px 16px 16px 16px;
@@ -50,7 +49,7 @@
     position: absolute;
     bottom: 0; 
     left: 16px;
-    width: 272px; 
+    width: calc(100% - 16px - 15px); 
     height: 1px; 
     background-color: rgba(4, 3, 6, 0.1); 
 }
@@ -76,8 +75,7 @@
 .our-yachts-item-properties {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
-    gap: 114px;
+    justify-content: space-between;
     padding: 0 16px 0 16px;
 }
 
@@ -163,9 +161,9 @@
     .our-yachts-img-box {
         max-width: 304px;
     }
-    
-    .our-yachts-item-name {
-        gap: 112px;
+
+        .our-yachts-item-name::after {
+        width: 272px;
     }
 
     .our-yachts-item-text {
@@ -284,10 +282,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1280px;
-        padding: 0 50px 0 49px;
-    }
 
     .our-yachts-title {
         max-width: 714px;
