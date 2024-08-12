@@ -23,8 +23,9 @@
   margin-bottom: 18px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   color: #fbfbfb;
+  outline: transparent;
 }
 
 .rent-form-input::placeholder,
@@ -47,6 +48,13 @@
   height: 108px;
   margin-bottom: 40px;
   overflow: hidden;
+  outline: transparent;
+  color: #fbfbfb;
+}
+
+.rent-form-input:focus-within,
+.rent-form-textarea:focus-within {
+  border-color: rgba(251, 251, 251, 0.5);
 }
 
 .rent-btn {
