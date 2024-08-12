@@ -4,7 +4,6 @@
   padding-bottom: 80px;
 }
 
-
 .reviews-title {
   font-weight: 500;
   font-size: 28px;
@@ -71,7 +70,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .reviews{
+  .reviews {
     padding-top: 75px;
     padding-bottom: 150px;
   }
@@ -84,31 +83,34 @@
     font-size: 14px;
     line-height: 1.29;
     max-width: 571px;
-     margin: 0 auto;
-     margin-bottom: 75px;
+    margin: 0 auto;
+    margin-bottom: 75px;
   }
 
-  .reviews-list-clider{
+  .reviews-list-clider {
     width: 704px;
   }
 
+  .reviews-item {
+    min-width: 336px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-.reviews-title{
+  .reviews-title {
     max-width: 850px;
-}
-    
-.reviews-list{
-    gap: 26px;
-}
+  }
 
-.reviews-list-clider{
+  .reviews-list {
+    gap: 26px;
+  }
+
+  .reviews-list-clider {
     width: 1180px;
   }
 
-  .reviews-item{
+  .reviews-item {
     padding: 32px 28px;
+    max-width: 376px;
   }
-
 }
