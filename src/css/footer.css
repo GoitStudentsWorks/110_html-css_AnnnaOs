@@ -65,13 +65,16 @@
 
 .footer-nav-link:hover,
 .footer-nav-link:focus {
-    background: #fbfbfb;
+    background-color: #fbfbfb;
     color: #1b414b;
 }
 
-.footer-nav-link.current {
+
+.footer-nav-link.current,
+.footer-nav-link {
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list {
@@ -313,5 +316,6 @@
         margin: 0 auto 99px auto;
 
     }
+
 
 }
