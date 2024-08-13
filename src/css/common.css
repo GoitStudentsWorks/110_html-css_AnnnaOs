@@ -27,6 +27,12 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 374px) {
+  .container {
+    padding: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
