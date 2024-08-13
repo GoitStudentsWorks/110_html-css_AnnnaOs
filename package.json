@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/casino-project-21/",
+    "build": "vite build --base=/110_html-css_AnnnaOs/",
     "preview": "vite preview"
   },
   "devDependencies": {
